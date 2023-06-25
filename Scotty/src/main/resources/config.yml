@@ -1,0 +1,13 @@
+enabled: true
+token: ''
+guildId: ''
+verified-role-id: ''
+rank-roles:
+  - 'Staff'
+  - 'Scout'
+channels:
+  chatlog: ''
+  helpops: ''
+  reports: ''
+  bugs: ''
+  monitoring: ''

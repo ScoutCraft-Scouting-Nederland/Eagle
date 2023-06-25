@@ -1,0 +1,32 @@
+mysql:
+  host: ''
+  port: 3306
+  database: ''
+  username: ''
+  password: ''
+
+maintenance-motd: '&6&lSCOUTCRAFT &7|| #D72638&lMaintenance Mode!\n#FF7700Kom later terug.'
+motd:
+  - '&6&lSCOUTCRAFT &7|| &9Development Network\n&2Home of Testing & Questing.'
+  - '&6&lSCOUTCRAFT &7|| &9Development Network\n&2The Development Domain.'
+  - '&6&lSCOUTCRAFT &7|| &9Development Network\n&2Its A Magical Place.'
+
+playtime_update_interval_seconds: 180
+announcer_interval_seconds: 120
+staffannouncer_interval_seconds: 300
+
+timings:
+  heartbeat_max_missed_millis: 10000
+  tps_update_millis: 20000
+
+chat:
+  format: '&7[%prefix%&7] %1$s \u00BB &r%2$s'
+  caps:
+    min_characters: 4
+    min_percentage: 50
+  spam:
+    millis: 2500
+    threshold: 3
+
+discord:
+  enabled: true

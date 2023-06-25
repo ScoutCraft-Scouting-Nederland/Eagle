@@ -1,0 +1,8 @@
+name: ${project.name}
+version: ${project.version}
+main: nl.scoutcraft.eagle.server.EagleServer
+api-version: 1.16
+description: ${project.description}
+authors: [ Acixsi, Daniel12321 ]
+website: https://scoutcraft.nl
+softdepend: [ SlimeWorldManager, PlaceholderAPI ]

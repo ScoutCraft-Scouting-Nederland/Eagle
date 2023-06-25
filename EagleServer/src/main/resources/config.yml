@@ -1,0 +1,18 @@
+server-name: MyServer
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  database: database
+  username: username
+  password: ''
+
+modules:
+  heartbeat: false
+  chat: false
+  maps: false
+  guis: true
+  tablist: false
+  party-menus: false
+
+swm-loader: file
