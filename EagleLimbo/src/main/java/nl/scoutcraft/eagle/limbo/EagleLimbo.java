@@ -21,7 +21,7 @@ public final class EagleLimbo extends LimboPlugin implements IEagle {
 
     @Override
     public void onEnable() {
-        this.sqlManager = new SQLManager("10.255.254.1", 3306, "scoutcraft_eagle", "scoutcraft_eagle", "KexqO0b4ZCC1TgLR");
+        this.sqlManager = new SQLManager("IP", 3306, "scoutcraft_eagle", "scoutcraft_eagle", "PASSWORD");
 
         new HeartbeatTask().start(this);
     }
